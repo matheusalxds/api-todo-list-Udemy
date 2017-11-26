@@ -1,23 +1,23 @@
 {
-  "name": "app-toDO-List-React",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/loader.js",
   "scripts": {
     "dev" : "nodemon",
     "production" : "pm2 start src/loader.js --name todo-app"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matheusalxds/api-todo-list-Udemy.git"
+    "url": "git+https://github.com/matheusalxds/backend-todo-list.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matheus Alexandre",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matheusalxds/api-todo-list-Udemy/issues"
+    "url": "https://github.com/matheusalxds/backend-todo-list/issues"
   },
-  "homepage": "https://github.com/matheusalxds/api-todo-list-Udemy#readme",
+  "homepage": "https://github.com/matheusalxds/backend-todo-list#readme",
   "devDependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
