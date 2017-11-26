@@ -1,0 +1,29 @@
+{
+  "name": "app-toDO-List-React",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon",
+    "production" : "pm2 start src/loader.js --name todo-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusalxds/api-todo-list-Udemy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusalxds/api-todo-list-Udemy/issues"
+  },
+  "homepage": "https://github.com/matheusalxds/api-todo-list-Udemy#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "node-restful": "^0.2.5",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.1.5"
+  }
+}
